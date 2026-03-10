@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>진로교사 조설아 - 꿈을 함께 찾는 동반자</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <style>
+        :root {
+            --main-purple: #6c5ce7;
+            --light-purple: #f1f0ff;
+            --dark-purple: #4834d4;
+            --text-color: #2d3436;
+            --bg-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            margin: 0; padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* 헤더 영역 */
+        header {
+            background-color: var(--main-purple);
+            color: white;
+            padding: 70px 20px;
+            text-align: center;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            box-shadow: 0 10px 20px rgba(108, 92, 231, 0.15);
+        }
+
+        .header-container { max-width: 800px; margin: 0 auto; }
+        header h1 { font-size: 3rem; margin: 0; font-weight: 800; letter-spacing: -1px; }
+        header p.job-title { font-size: 1.3rem; opacity: 0.95; margin: 15px 0 5px; font-weight: 500; }
+        
+        .motto {
+            display: inline-block;
+            background-color: rgba(255,255,255,0.15);
+            padding: 10px 25px;
+            border-radius: 30px;
+            font-size: 1.15rem;
+            font-style: italic;
+            margin-top: 20px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        /* 메인 콘텐츠 영역 */
+        main {
+            max-width: 800px;
+            margin: 40px auto 60px;
+            padding: 0 20px;
+            display: grid;
+            gap: 25px;
+        }
+
+        section {
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+            border: 1px solid #eee;
+        }
+
+        h2 {
+            color: var(--dark-purple);
+            font-size: 1.6rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-left: 6px solid var(--main-purple);
+            padding-left: 15px;
+            letter-spacing: -1px;
+        }
+
+        .intro-text { font-size: 1.1rem; color: #444; }
+
+        /* 태그 스타일 */
+        .tag-container { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+        .tag {
+            background-color: var(--light-purple);
+            color: var(--dark-purple);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        /* 리스트 스타일 */
+        ul.styled-list { list-style: none; padding: 0; margin-top: 20px; }
+        ul.styled-list li {
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            color: #333;
+        }
+        ul.styled-list li::before {
+            content: '✓';
+            position: absolute; left: 0; color: var(--main-purple);
+            font-weight: bold; font-size: 1.3rem; top: -2px;
+        }
+
+        /* 블로그 주소 강조 영역 */
+        .blog-box {
+            background-color: #f0fff4;
+            border: 2px solid #2db400;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .blog-title { font-weight: bold; font-size: 1.1rem; color: #1a6d00; margin-bottom: 10px; }
+        .blog-url {
+            display: block;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2db400;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #d1e7d1;
+            margin: 15px 0;
+        }
+
+        .blog-desc { font-size: 0.95rem; color: #666; }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #aaa;
+            background-color: white;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.2rem; }
+            .blog-url { font-size: 1.1rem; }
+            section { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>조설아</h1>
+        <p class="job-title">고등학교 진로교사</p>
+        <div class="motto">"이 또한 지나가리라"</div>
+    </div>
+</header>
+
+<main>
+    <section>
+        <h2>안녕하세요, 꿈을 함께 찾는 동반자 조설아입니다.</h2>
+        <p class="intro-text">
+            저는 학생들이 자신만의 속도와 방향으로 인생을 탐색할 수 있도록 돕는 고등학교 진로교사입니다.<br>
+            복잡한 입시와 진로 고민 속에서 흔들리지 않는 단단한 마음을 가질 수 있도록 함께하겠습니다.
+        </p>
+        <div class="tag-container">
+            <span class="tag">#INTJ</span>
+            <span class="tag">#O형</span>
+            <span class="tag">#진로교육전문가</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>내가 좋아하는 것들</h2>
+        <div class="tag-container">
+            <span class="tag">🧘‍♀️ 요가와 명상</span>
+            <span class="tag">📚 책읽기</span>
+            <span class="tag">✈️ 여행</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>조설아 선생님의 수업 시간 약속</h2>
+        <ul class="styled-list">
+            <li><strong>시간 엄수:</strong> 종치고 들어오지 말 것.</li>
+            <li><strong>진지한 태도:</strong> 나의 인생에 대해 깊고 진지하게 탐색할 것.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>가장 강조하는 한 가지</h2>
+        <p style="font-size: 1.4rem; font-weight: 800; color: var(--main-purple); text-align: center; margin: 15px 0;">
+            "진로는 바뀌어도 괜찮다, 괜찮아."
+        </p>
+    </section>
+
+    <section>
+        <h2>진로 정보 안내 (블로그)</h2>
+        <div class="blog-box">
+            <div class="blog-title">진로칼럼, 중하위권을 위한 진로진학</div>
+            <code class="blog-url">blog.naver.com/greenote</code>
+            <p class="blog-desc">주소를 직접 입력하거나 네이버에서 <strong>'진로교사 조설아'</strong>를 검색하세요.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © 2024 조설아 진로교사. 꿈을 함께 찾는 동반자.
+</footer>
+
+</body>
+</html>
